@@ -69,7 +69,7 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(133, 20)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Nomor Punggung"
+        Me.Label2.Text = "Kode Barang    :"
         '
         'Label3
         '
@@ -78,7 +78,7 @@ Partial Class Form1
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(79, 20)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Nama      :"
+        Me.Label3.Text = "Nama Barang      :"
         '
         'Label4
         '
@@ -87,7 +87,7 @@ Partial Class Form1
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(66, 20)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Posisi   :"
+        Me.Label4.Text = "Jumlah Barang   :"
         '
         'Label5
         '
@@ -96,7 +96,7 @@ Partial Class Form1
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(48, 20)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Umur"
+        Me.Label5.Text = "Harga(/Kg)      :"
         '
         'Label6
         '
@@ -105,7 +105,7 @@ Partial Class Form1
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(128, 20)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Kelas Permainan"
+        Me.Label6.Text = "Expired          :"
         '
         'textbox_kode_brg
         '
@@ -142,7 +142,7 @@ Partial Class Form1
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(120, 20)
         Me.Label7.TabIndex = 11
-        Me.Label7.Text = "Pola Permainan"
+        Me.Label7.Text = "Tujuan            :"
         '
         'textbox_tujuan
         '
@@ -159,7 +159,7 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(136, 20)
         Me.Label8.TabIndex = 13
-        Me.Label8.Text = "Status                   :"
+        Me.Label8.Text = "Jenis             :"
         '
         'radio_buah
         '
@@ -169,7 +169,7 @@ Partial Class Form1
         Me.radio_buah.Size = New System.Drawing.Size(94, 24)
         Me.radio_buah.TabIndex = 14
         Me.radio_buah.TabStop = True
-        Me.radio_buah.Text = "Menikah"
+        Me.radio_buah.Text = "Buah"
         Me.radio_buah.UseVisualStyleBackColor = True
         '
         'radio_sayur
@@ -180,7 +180,7 @@ Partial Class Form1
         Me.radio_sayur.Size = New System.Drawing.Size(143, 24)
         Me.radio_sayur.TabIndex = 15
         Me.radio_sayur.TabStop = True
-        Me.radio_sayur.Text = "Belum Menikah"
+        Me.radio_sayur.Text = "Sayur"
         Me.radio_sayur.UseVisualStyleBackColor = True
         '
         'btn_bersihkan
@@ -241,35 +241,35 @@ Partial Class Form1
         '
         'kode_barang
         '
-        Me.kode_barang.HeaderText = "Nomor Panggung"
+        Me.kode_barang.HeaderText = "Kode Barang"
         Me.kode_barang.MinimumWidth = 8
         Me.kode_barang.Name = "kode_barang"
         Me.kode_barang.Width = 150
         '
         'nama_barang
         '
-        Me.nama_barang.HeaderText = "Nama"
+        Me.nama_barang.HeaderText = "Nama Barang"
         Me.nama_barang.MinimumWidth = 8
         Me.nama_barang.Name = "nama_barang"
         Me.nama_barang.Width = 120
         '
         'jumlah_barang
         '
-        Me.jumlah_barang.HeaderText = "Posisi"
+        Me.jumlah_barang.HeaderText = "Jumlah Barang"
         Me.jumlah_barang.MinimumWidth = 8
         Me.jumlah_barang.Name = "jumlah_barang"
         Me.jumlah_barang.Width = 150
         '
         'harga
         '
-        Me.harga.HeaderText = "Umur"
+        Me.harga.HeaderText = "Harga(/Kg)"
         Me.harga.MinimumWidth = 8
         Me.harga.Name = "harga"
         Me.harga.Width = 150
         '
         'expired
         '
-        Me.expired.HeaderText = "Kelas Permainan"
+        Me.expired.HeaderText = "Expired"
         Me.expired.MinimumWidth = 8
         Me.expired.Name = "expired"
         Me.expired.Width = 150
@@ -283,7 +283,7 @@ Partial Class Form1
         '
         'tujuan
         '
-        Me.tujuan.HeaderText = "Pola Permainan"
+        Me.tujuan.HeaderText = "Tujuan"
         Me.tujuan.MinimumWidth = 8
         Me.tujuan.Name = "tujuan"
         Me.tujuan.Width = 250
